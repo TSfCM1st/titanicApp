@@ -1,8 +1,6 @@
 import pickle
 import pandas as pd
 
-
-
 def AiMdels(data):
 
     with open('titanicai/LinearSVC.pickle', 'rb') as f:
